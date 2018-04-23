@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <ProjectGuid>{EC89C671-692C-4C6A-80E1-6872D8CA9596}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <OutputPath>bin</OutputPath>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <TypeScriptToolsVersion>1.8</TypeScriptToolsVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="webContent\src\main\webapp\css\squareup\squaredup.css" />
+    <Content Include="webContent\src\main\webapp\css\com\bootstrap.css" />
+    <Content Include="webContent\src\main\webapp\scripts\base\common\ecp.web.utils.js" />
+    <Content Include="webContent\src\main\webapp\scripts\base\common\utils.js" />
+    <Content Include="webContent\src\main\webapp\scripts\lib\angular.min.js" />
+    <Content Include="webContent\src\main\webapp\scripts\lib\bootstrap.js" />
+    <Content Include="webContent\src\main\webapp\scripts\lib\jquery.min.js" />
+    <Content Include="webContent\src\main\webapp\scripts\lib\main.js" />
+    <Content Include="webContent\src\main\webapp\scripts\lib\require.js" />
+    <Content Include="webContent\src\main\webapp\work\mineSweeper\css\mineSweeper.css" />
+    <Content Include="webContent\src\main\webapp\work\mineSweeper\mineSweeper.html" />
+    <Content Include="webContent\src\main\webapp\work\eightPuzzle\css\squaredup.css" />
+    <Content Include="webContent\src\main\webapp\work\eightPuzzle\eightPuzzle.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="webContent\src\main\java\" />
+    <Folder Include="webContent\src\main\resources\" />
+    <Folder Include="webContent\src\main\webapp\image\" />
+    <Folder Include="webContent\src\main\webapp\work\init\" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="webContent\src\main\webapp\scripts\base\common\baseBuild.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\scripts\base\common\mathUtils.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\scripts\base\datastructures\queue.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\scripts\base\inteface\appBuild.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\scripts\d.ts\angular.d.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\scripts\d.ts\bootstrap.d.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\scripts\d.ts\jquery.d.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\scripts\d.ts\requirejs.d.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\scripts\d.ts\utils.d.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\work\eightPuzzle\arithmetic\eightPuzzleP2.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\work\eightPuzzle\arithmetic\eightPuzzleP1.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\work\mineSweeper\controllers\mineSweeperController.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\work\mineSweeper\mineSweeper.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\work\mineSweeper\mineSweeperConst.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\work\mineSweeper\model\squared.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\work\eightPuzzle\controllers\eightPuzzleController.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\work\eightPuzzle\eightPuzzle.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\work\eightPuzzle\eightPuzzleConst.ts" />
+    <TypeScriptCompile Include="webContent\src\main\webapp\work\eightPuzzle\model\squared.ts" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>LackOfOneSquaredUp</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\WebApplications\Microsoft.WebApplication.targets')" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51262</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51262/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
+    <TypeScriptRemoveComments>false</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>true</TypeScriptSourceMap>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'">
+    <TypeScriptRemoveComments>true</TypeScriptRemoveComments>
+    <TypeScriptSourceMap>false</TypeScriptSourceMap>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
+    <TypeScriptModuleKind>AMD</TypeScriptModuleKind>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+</Project>

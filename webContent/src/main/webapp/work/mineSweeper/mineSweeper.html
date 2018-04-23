@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>e</title>
+    <link rel="stylesheet" type="text/css" href="css/mineSweeper.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/com/bootstrap.css" />
+</head>
+<body ng-controller="mineSweeperController">
+    <div class="container squaredup" style="text-align: center;margin-top: 30px;">
+        <div class="btn-group" style="margin-top: 10px;">
+            雷数:<span ng-bind="landMineNum"></span>
+        </div>
+        <ul class="col"  ng-repeat="items in squaredData track by $index">
+            <li ng-repeat="item in items track by $index">
+                <div ng-right-click="signArea($parent.$index,$index,item)" class="diamond {{'block'+$parent.$index+'-'+$index}}" ng-click="open($parent.$index,$index,item)" ng-class="">
+                    <!--隐藏数字-->
+                    <!--<span ng-bind="item" ng-hide="!openmap[$index][$parent.$index]"></span>-->
+                    <!--显示数字-->
+                    <span ng-bind="item" ></span>
+                    
+                </div>
+            </li>
+        </ul>
+        <div class="btn-group" style="margin-top: 10px;">
+            <button class="btn" ng-click="theBestPath()" ng-disabled="buttonstatus==0">自动扫雷</button>
+        </div>
+    </div>
+    
+    <script src="../../scripts/lib/require.js" data-main="../../scripts/lib/main"></script>
+    <script>
+        require(["../../work/mineSweeper/mineSweeper"]);
+    </script>
+</body>
+</html>

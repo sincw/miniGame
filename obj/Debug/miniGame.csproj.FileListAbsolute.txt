@@ -1,0 +1,11 @@
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\bin\miniGame.dll.config
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\bin\miniGame.dll
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\bin\miniGame.pdb
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\obj\Debug\miniGame.dll
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\obj\Debug\miniGame.pdb
+E:\个人资料\算法\miniGame\bin\miniGame.dll.config
+E:\个人资料\算法\miniGame\bin\miniGame.dll
+E:\个人资料\算法\miniGame\bin\miniGame.pdb
+E:\个人资料\算法\miniGame\obj\Debug\miniGame.csprojResolveAssemblyReference.cache
+E:\个人资料\算法\miniGame\obj\Debug\miniGame.dll
+E:\个人资料\算法\miniGame\obj\Debug\miniGame.pdb

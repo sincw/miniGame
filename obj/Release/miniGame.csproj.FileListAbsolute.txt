@@ -1,0 +1,10 @@
+E:\个人资料\算法\miniGame\bin\miniGame.dll.config
+E:\个人资料\算法\miniGame\bin\miniGame.dll
+E:\个人资料\算法\miniGame\bin\miniGame.pdb
+E:\个人资料\算法\miniGame\obj\Release\miniGame.dll
+E:\个人资料\算法\miniGame\obj\Release\miniGame.pdb
+E:\miniGame\bin\miniGame.dll.config
+E:\miniGame\bin\miniGame.dll
+E:\miniGame\bin\miniGame.pdb
+E:\miniGame\obj\Release\miniGame.dll
+E:\miniGame\obj\Release\miniGame.pdb

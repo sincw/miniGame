@@ -1,0 +1,5 @@
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\bin\LackOfOneSquaredUp.dll.config
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\bin\LackOfOneSquaredUp.dll
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\bin\LackOfOneSquaredUp.pdb
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\obj\Release\LackOfOneSquaredUp.dll
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\obj\Release\LackOfOneSquaredUp.pdb

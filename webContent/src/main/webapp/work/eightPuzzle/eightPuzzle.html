@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>e</title>
+    <link rel="stylesheet" type="text/css" href="css/squaredup.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/com/bootstrap.css" />
+</head>
+<body ng-controller="eightPuzzleController">
+    <div class="container squaredup" style="text-align: center;margin-top: 30px;">
+        <ul class="col"  ng-repeat="items in squaredData">
+            <li ng-repeat="item in items">
+                <div  ng-click="move($parent.$index,$index,item)" ng-class="{true:'diamond-zero',false:'diamond'}[item == 0]">
+                    <span ng-bind="item"></span>
+                </div>
+            </li>
+        </ul>
+        <div class="btn-group" style="margin-top: 10px;">
+            <button class="btn" ng-click="theBestPath()" ng-disabled="buttonstatus==0">最佳解法</button>
+        </div>
+    </div>
+    
+    <script src="../../scripts/lib/require.js" data-main="../../scripts/lib/main"></script>
+    <script>
+        require(["../../work/eightPuzzle/eightPuzzle"]);
+    </script>
+</body>
+</html>

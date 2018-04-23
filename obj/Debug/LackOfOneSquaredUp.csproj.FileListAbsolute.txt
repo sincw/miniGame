@@ -1,0 +1,12 @@
+G:\小算法\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\bin\LackOfOneSquaredUp.dll.config
+G:\小算法\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\bin\LackOfOneSquaredUp.dll
+G:\小算法\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\bin\LackOfOneSquaredUp.pdb
+G:\小算法\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\obj\Debug\LackOfOneSquaredUp.csprojResolveAssemblyReference.cache
+G:\小算法\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\obj\Debug\LackOfOneSquaredUp.dll
+G:\小算法\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\obj\Debug\LackOfOneSquaredUp.pdb
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\obj\Debug\LackOfOneSquaredUp.csprojResolveAssemblyReference.cache
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\obj\Debug\LackOfOneSquaredUp.dll
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\obj\Debug\LackOfOneSquaredUp.pdb
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\bin\LackOfOneSquaredUp.dll.config
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\bin\LackOfOneSquaredUp.dll
+G:\arithmetic\LackOfOneSquaredUp\typescript\LackOfOneSquaredUp\bin\LackOfOneSquaredUp.pdb

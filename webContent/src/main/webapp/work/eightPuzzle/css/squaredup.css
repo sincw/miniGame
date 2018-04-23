@@ -1,0 +1,35 @@
+ul,li {
+	padding:0;margin:0;list-style:none
+}
+
+.diamond {
+	width: 98px;
+	height: 98px;
+	background-color:beige;
+	border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+.diamond-zero {
+	width: 98px;
+	height: 98px;
+	background-color:white;
+	border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+.col {
+  padding-left: 0;
+  list-style: none;
+  margin: 0 0 0 0;
+  font-size: 0; 
+}
+.col > li {
+  display: inline-block;
+  margin: 0 0 0 0;
+  
+}

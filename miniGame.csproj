@@ -40,7 +40,6 @@
     <Folder Include="webContent\src\main\java\" />
     <Folder Include="webContent\src\main\resources\" />
     <Folder Include="webContent\src\main\webapp\image\" />
-    <Folder Include="webContent\src\main\webapp\work\init\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="webContent\src\main\webapp\scripts\base\common\baseBuild.ts" />

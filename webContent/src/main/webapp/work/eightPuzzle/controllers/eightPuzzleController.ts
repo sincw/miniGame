@@ -15,6 +15,7 @@ export class eightPuzzleController {
         this.$scope = $scope;
         this.$interval = $interval;
         console.info("eightPuzzleController start");
+        //算法暂时支持矩形
         var squared = new Squared.Squared(4,4);
         this.squaredObject = squared;
         $scope.squaredData = squared.getMatrix();
@@ -44,8 +45,6 @@ export class eightPuzzleController {
         console.info(edate - sdate);
         console.info(result);
 
-        
-        
         var timer = this.$interval(function () {
             if (result.length == 0) {
                 that.$interval.cancel(timer);

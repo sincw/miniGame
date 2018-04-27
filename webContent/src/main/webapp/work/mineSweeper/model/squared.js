@@ -51,7 +51,6 @@ define(["require", "exports"], function (require, exports) {
                     }
                 }
                 //[1, 2, 3, 4, 0, 5, 7, 8, 9, 6, 10, 12, 13, 14, 11, 15]
-                //[7, 1, 6, 8, 3,4, 2, 5, 0]
                 return seq;
             };
             this.swap = function (arr, soruce, target) {

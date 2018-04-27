@@ -39,6 +39,7 @@ define(["require", "exports", "../arithmetic/eightPuzzleP2", "../model/squared",
             this.$scope = $scope;
             this.$interval = $interval;
             console.info("eightPuzzleController start");
+            //算法暂时支持矩形
             var squared = new Squared.Squared(4, 4);
             this.squaredObject = squared;
             $scope.squaredData = squared.getMatrix();

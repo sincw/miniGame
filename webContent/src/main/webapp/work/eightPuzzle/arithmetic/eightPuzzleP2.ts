@@ -101,7 +101,7 @@ export class eightPuzzleP2 {
             }
         }
         this.result.push(utils.clone(resource));
-        while (!(this.flag) && this.length <= 50)//要求60步之内到达
+        while (!(this.flag))
         {
             this.bfs(x, y, 0, 0);
             if (!(this.flag))

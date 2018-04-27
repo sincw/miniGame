@@ -78,7 +78,7 @@ define(["require", "exports", "utils", "../../../scripts/base/common/mathUtils",
                     }
                 }
                 _this.result.push(utils.clone(resource));
-                while (!(_this.flag) && _this.length <= 50) {
+                while (!(_this.flag)) {
                     _this.bfs(x, y, 0, 0);
                     if (!(_this.flag))
                         _this.limit++; //得到的是最小步数  

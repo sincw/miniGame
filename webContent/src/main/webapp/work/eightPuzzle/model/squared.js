@@ -38,23 +38,16 @@ define(["require", "exports"], function (require, exports) {
                 ;
                 seq = _this.shuffle(seq);
                 seq.push(0);
-                //0在偶位置时，当是奇排列,换成偶排列
-                //if (num % 2 == 1) {
-                if (!_this.isOddSeq(seq)) {
+                if (_this.isOddSeq(seq)) {
                     _this.swap(seq, 0, 1);
                 }
-                // } else {
-                //当是qi排列，0在偶位置，换成奇排列
-                //    if (!this.isOddSeq(seq)) {
-                //        this.swap(seq, 0, 1);
-                //    }
-                // }
-                //this.swap(seq, 0, 1);
-                var a = [5, 1, 2, 4, 9, 6, 3, 8, 13, 15, 10, 11, 14, 7, 12, 0]; //16
-                var b = [14, 10, 1, 8, 3, 15, 7, 9, 5, 12, 11, 4, 13, 2, 6, 0]; //48
+                if (num % 2 == 0) {
+                    _this.swap(seq, 0, 1);
+                }
+                var a = [5, 1, 2, 4, 9, 6, 3, 8, 13, 15, 10, 11, 14, 7, 12, 0]; //16步
+                var b = [14, 10, 1, 8, 3, 15, 7, 9, 5, 12, 11, 4, 13, 2, 6, 0]; //48步
                 _this.isOddSeq(a);
-                //return [5, 1, 2, 4, 9, 6, 3, 8, 13, 15, 10, 11, 14, 0, 7, 12];
-                return b;
+                return seq;
             };
             this.swap = function (arr, soruce, target) {
                 arr[soruce] = arr.splice(target, 1, arr[soruce])[0];

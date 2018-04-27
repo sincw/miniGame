@@ -40,6 +40,7 @@
     <Folder Include="webContent\src\main\java\" />
     <Folder Include="webContent\src\main\resources\" />
     <Folder Include="webContent\src\main\webapp\image\" />
+    <Folder Include="webContent\src\main\webapp\work\mineSweeper\model\" />
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="webContent\src\main\webapp\scripts\base\common\baseBuild.ts" />
@@ -56,11 +57,13 @@
     <TypeScriptCompile Include="webContent\src\main\webapp\work\mineSweeper\controllers\mineSweeperController.ts" />
     <TypeScriptCompile Include="webContent\src\main\webapp\work\mineSweeper\mineSweeper.ts" />
     <TypeScriptCompile Include="webContent\src\main\webapp\work\mineSweeper\mineSweeperConst.ts" />
-    <TypeScriptCompile Include="webContent\src\main\webapp\work\mineSweeper\model\squared.ts" />
     <TypeScriptCompile Include="webContent\src\main\webapp\work\eightPuzzle\controllers\eightPuzzleController.ts" />
     <TypeScriptCompile Include="webContent\src\main\webapp\work\eightPuzzle\eightPuzzle.ts" />
     <TypeScriptCompile Include="webContent\src\main\webapp\work\eightPuzzle\eightPuzzleConst.ts" />
     <TypeScriptCompile Include="webContent\src\main\webapp\work\eightPuzzle\model\squared.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="webContent\src\main\webapp\work\eightPuzzle\README.MD" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>

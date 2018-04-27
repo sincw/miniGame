@@ -16,7 +16,7 @@ export class eightPuzzleController {
         this.$interval = $interval;
         console.info("eightPuzzleController start");
         //算法暂时支持矩形
-        var squared = new Squared.Squared(4,4);
+        var squared = new Squared.Squared(3,3);
         this.squaredObject = squared;
         $scope.squaredData = squared.getMatrix();
         $scope.move = this.move.bind(this);

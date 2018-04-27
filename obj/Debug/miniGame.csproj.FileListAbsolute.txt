@@ -9,3 +9,9 @@ E:\个人资料\算法\miniGame\bin\miniGame.pdb
 E:\个人资料\算法\miniGame\obj\Debug\miniGame.csprojResolveAssemblyReference.cache
 E:\个人资料\算法\miniGame\obj\Debug\miniGame.dll
 E:\个人资料\算法\miniGame\obj\Debug\miniGame.pdb
+H:\miniGame\bin\miniGame.dll.config
+H:\miniGame\bin\miniGame.dll
+H:\miniGame\bin\miniGame.pdb
+H:\miniGame\obj\Debug\miniGame.csprojResolveAssemblyReference.cache
+H:\miniGame\obj\Debug\miniGame.dll
+H:\miniGame\obj\Debug\miniGame.pdb
